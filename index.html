@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <html lang="id">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                body {
+                    padding: 0;
+                    margin: 0;
+                }
+                .header {
+                    background-color: rgb(14, 126, 116);
+                    padding-top: 1px;
+                }
+
+                #logo-1 {
+                    color: #fff;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-align: center;
+                }
+
+                #logo-2 {
+                    color: #fff;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    text-align: center;
+                    font-size: 25px;
+                }
+
+                .navigasi {
+                    background-color: rgb(33, 156, 160);
+                    padding-top: 1px;
+                    padding-bottom: 35px;
+                }
+
+                .navigasi, ul {
+                    list-style: none;
+                    
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-family:'Times New Roman', Times, serif;
+                    float: left;
+                    padding-right: 35px;
+                    font-size: 18px;
+                }
+
+                a:hover {
+                    font-weight: bold;
+                }
+
+                .utama {
+                    background-color: rgb(204, 204, 204);
+                    padding-top: 1px;
+                    padding-bottom: 200px;
+                }
+
+                #logo-3 {
+                    margin-top: 200px;
+                    text-align: center;
+                    color: rgb(36, 36, 36);
+                    text-decoration: none;
+                    font-size: 30px;
+                    margin-bottom: 50px;
+                }
+
+                #logo-4 {
+                    text-align: center;
+                    color:rgb(36, 36, 36);
+                    font-size: 25px;
+                    text-decoration: none;
+                    margin-bottom: 100px;
+                }
+
+                .content {
+                    display: flex;
+                    padding-right: 50px;
+                    padding-left: 43px;
+                }
+
+                #tanda {
+                    color: red;
+                }
+
+                #paragraf {
+                    text-align: center;
+                    font-size: 20px;
+                }
+
+                #daftar {
+                    margin-top: 700px;
+                }
+
+                .form {
+                    padding-left: 25px;
+                }
+
+                #input {
+                    width: 250px;
+                    height: 25px;
+                }
+
+                #pesan {
+                    width: 500px;
+                    height: 250px;
+                }
+
+                #kirim {
+                    width: 250px;
+                    height: 30px;
+                }
+
+                .footer {
+                    background-color: rgb(6, 52, 95);
+                    padding-top: 1px;
+                    padding-bottom: 62px;
+                }
+
+                #style-1 {
+                    color: #fff;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    float: left;
+                    padding-left: 20px;
+                }
+
+                #style-2 {
+                    color: #fff;
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    float: right;
+                    padding-right: 20px;
+                }
+
+                #button {
+                    margin-left: 45px;
+                    width: 150px;
+                    margin-top: 20px;
+                    border-radius: 10px;
+                    border: none;
+                    box-shadow: 1px 4px 4px 1px rgb(143, 143, 143);
+                    height: 30px;
+                    background:rgb(104, 179, 172);
+                    
+                }
+
+                #button:hover {
+                    background: rgb(154, 202, 182);
+                    font-weight: bold;
+                }
+
+                @media screen and (max-width: 922px) {
+                    #style-2 {
+                        width: auto;
+                    }
+                    .content {
+                        width: 100%;
+                    }
+
+                    #pesan, aside {
+                        width: 95%;
+                    }
+
+                    .form {
+                        padding-top: 850px;
+                    }
+
+
+                }
+
+            </style>
+        </head>
+        <body>
+            <header>
+                <div class="header">
+                    <h1 id="logo-1">YusufTech</h1>
+                    <p id="logo-2">Welcome to my website</p>
+                    <nav>
+                        <div class="navigasi">
+                           <ul>
+                               <li><a href="https://google.com" target="_blank">Home</a></li>
+                               <li><a href="https://youtube.com" target="_blank">Profile</a></li>
+                               <li><a href="https://facebook.com" target="_blank">Contact</a></li>
+                               <li><a href="https://wix.com" target="_blank">About</a></Li>
+                           </ul>
+                        </div>   
+                   </nav>
+                </div>
+            </header>
+            <main>
+                <div class="utama">
+                    <h2 id="logo-3">Ayo belajar Coding<span id="tanda">!</span></h2>
+                    <p id="logo-4">Apa yang di pelajari?</p>
+                    <div class="content">
+                        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+                        <br>
+                        <button id="button">HTML & CSS</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+                        <br>
+                        <button id="button">PHP</button>
+                    </div>
+                    <div class="content">
+                        <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+                        <br>
+                        <button id="button">Ruby</button>
+                    </div>
+                    <div class="content">
+                        <img src=" https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+                        <br>
+                        <button id="button">Swift</button>
+                    </div>
+                    <div class="form">
+                       <h1 id="daftar">Daftar Segera!</h1>
+                       <form action="hasil.php" method="POST">
+                        Nama : 
+                        <br>
+                        <br>
+                        <input id="input" type="text" placeholder="Isi nama lengkap anda" name="nama">
+                        <br>
+                        <br>
+                        Kelas : 
+                        <br>
+                        <br>
+                        <input id="input" type="text" placeholder="Isi kelas anda" name="kelas">
+                        <br>
+                        <br>
+                        Email :
+                        <br>
+                        <br>
+                        <input id="input" type="text" placeholder="Isi email anda" name="email">
+                        <br>
+                        <br>
+                        Jenis kelamin :
+                        <br>
+                        <br>
+                        <select name="gender">
+                            <option value="pilih">--Pilih--
+                            <option value="laki-laki">laki-laki
+                            <option value="perempuan">perempuan
+                        </select>
+                        <br>
+                        <br>
+                        Pesan Anda : 
+                        <br>
+                        <br>
+                        <textarea id="pesan" name="pesan"></textarea>
+                        <br>
+                        <br>
+                        <input id="kirim" type="submit" value="Kirim Data Anda">  
+                       </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer">
+                    <h4 id="style-1">YusufTech | All Rights Reserved</h4>
+                    <h4 id="style-2">Powered By YusufTech</h4>
+                </div>
+            </footer>
+        </body>
+    </html>
+</html>
